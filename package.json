@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "devDependencies": {
-   
+    "sass": "^1.64.2"
   },
   "dependencies": {
     "@types/node": "18.16.1",

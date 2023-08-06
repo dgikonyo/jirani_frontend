@@ -1,4 +1,5 @@
-import "../public/styles/globals.css"
+import "../public/assets/styles/globals.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function RootLayout({children,}: {children: React.ReactNode}) {
   return (

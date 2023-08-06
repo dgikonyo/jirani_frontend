@@ -1,0 +1,42 @@
+$primary: #65647c;
+$secondary: #8b7e74;
+$tertiary: #c7bca1;
+$tertiary-2: #f1d3b3;
+
+.main {
+}
+
+.Navbar {
+  width: 100%;
+  margin: 20px 0;
+  background-color: #ffede7;
+
+  .navbar-brand {
+    letter-spacing: 3px;
+    color: #c24244;
+  }
+
+  .navbar-brand:hover {
+    color: #c24244;
+  }
+
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #7f4722;
+  }
+
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #7f4722;
+  }
+
+  .navbar-scrolled {
+    background-color: #ffede7;
+  }
+}
+
+.landingPage {
+  #abovefoldabovefold {
+    background-image: url("../img/dalle_img1.png");
+  }
+}

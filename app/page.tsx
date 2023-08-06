@@ -1,5 +1,5 @@
 import LandingPage from "./pages/landing-page/page"
-import styles from "../public/styles/page.module.css"
+import styles from "../public/assets/styles/page.module.scss"
 
 export default function Page() {
   return (
