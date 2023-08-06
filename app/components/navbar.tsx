@@ -9,7 +9,7 @@ export default function Navbar() {
                     <Link className="navbar-brand" href="#">
                         <Image
                             alt="jirani_logo"
-                            src="/assets/img/logo/logo-no-background.svg"
+                            src="/assets/img/logo/svg/logo-no-background.svg"
                             width={92}
                             height={30}
                         ></Image>
