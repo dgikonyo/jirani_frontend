@@ -3,7 +3,7 @@ import styles from '../../../../public/assets/styles/page.module.scss';
 
 export default function ForgotPassword() {
     return (
-        <section className={styles.ForgorPassword}>
+        <section className={styles.ForgotPassword}>
             <div className="card text-center">
                 <div className="card-header h5 text-white bg-primary">Password Reset</div>
                 <div className="card-body px-5">

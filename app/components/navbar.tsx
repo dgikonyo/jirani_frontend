@@ -37,7 +37,7 @@ export default function Navbar() {
                                 <Link className="nav-link px-3" href="/page/how-it-works">How it works</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link px-3" href="/pages/login">Sign In</Link>
+                                <Link className="nav-link px-3" href="/pages/auth/login">Sign In</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link px-3" href="/pages/kyc">Create a Fundraiser</Link>

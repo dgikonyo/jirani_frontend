@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from '../../../public/assets/styles/page.module.scss';
+import styles from '../../../../public/assets/styles/page.module.scss';
 import Link from 'next/link';
 
 export default function Login() {
@@ -47,7 +47,7 @@ export default function Login() {
                                         <input className="form-check-input" type="checkbox" value="" id="form1Example3" checked />
                                         <label className="form-check-label"> Remember me </label>
                                     </div>
-                                    <a href="/pages/forgot-password">Forgot password?</a>
+                                    <a href="/pages/auth/forgot-password">Forgot password?</a>
                                 </div>
 
                                 {/* <!-- Submit button --> */}
@@ -64,7 +64,7 @@ export default function Login() {
                                 <Link className="btn btn-primary btn-lg btn-block" style="background-color: #55acee" href="#!"
                                     role="button">
                                     <i className="fab fa-twitter me-2"></i>Continue with Twitter</Link> */}
-                                <p>Don't have an account, <Link>Sign Up</Link> to our website</p>
+                                <p>Don't have an account, <Link href="/pages/auth/registration">Sign Up</Link> to our website</p>
 
                             </form>
                         </div>
