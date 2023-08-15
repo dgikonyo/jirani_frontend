@@ -6,6 +6,30 @@ $tertiary-2: #f1d3b3;
 .main {
 }
 
+.Registration {
+  color: hsl(217, 10%, 50.8%);
+
+  #reg-sec {
+    background-color: hsl(0, 0%, 96%);
+  }
+}
+
+.Login {
+  .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+}
+
+.ForgotPassword {
+  .card {
+    width: 300px;
+  }
+}
+
 .Navbar {
   width: 100%;
   margin: 20px 0;
