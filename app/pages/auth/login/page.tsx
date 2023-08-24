@@ -64,7 +64,7 @@ export default function Login() {
                                 <Link className="btn btn-primary btn-lg btn-block" style="background-color: #55acee" href="#!"
                                     role="button">
                                     <i className="fab fa-twitter me-2"></i>Continue with Twitter</Link> */}
-                                <p>Don't have an account, <Link href="/pages/auth/registration">Sign Up</Link> to our website</p>
+                                <p>Don&apos;t have an account, <Link href="/pages/auth/registration">Sign Up</Link> to our website</p>
 
                             </form>
                         </div>

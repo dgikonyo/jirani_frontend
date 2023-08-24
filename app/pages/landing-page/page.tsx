@@ -6,18 +6,21 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Page() {
-    const props = [
+    const steps = [
         {
+            id: 1,
             address: "/assets/img/page-images/values-1.png",
             title: "Create an account with us",
             prompt: "Start off with providing us with your name and location"
         },
         {
+            id: 2,
             address: "/assets/img/page-images/values-2.png",
             title: "Give us your story",
             prompt: "We'll guide you through the way"
         },
         {
+            id: 3,
             address: "/assets/img/page-images/values-3.png",
             title: "Share with family and friends",
             prompt: "Lets walk tofgether every step of the way"
@@ -54,11 +57,15 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="row">
-                        {props.map((props) => {
+
+                        {steps.map(step => {
                             return (
-                                <OnboardingSteps {...props} />
+                                <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400" key={step.id} >
+                                    <OnboardingSteps {...step} />
+                                </div>
                             );
                         })}
+
                     </div>
                     <div className="row" id="fotter">
                         <Footer />
