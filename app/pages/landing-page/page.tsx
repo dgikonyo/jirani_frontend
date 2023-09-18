@@ -1,12 +1,11 @@
 import Navbar from "../../components/navbar";
 import styles from "../../../public/assets/styles/page.module.scss"
-import OnboardingSteps from "../../components/card-steps";
 import Footer from "../../components/Footer";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Page() {
-    const steps = [
+    const onboardingSteps = [
         {
             id: 1,
             address: "/assets/img/page-images/values-1.png",
@@ -57,11 +56,20 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="row">
-
-                        {steps.map(step => {
+                        {onboardingSteps.map(onboardingStep => {
                             return (
-                                <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400" key={step.id} >
-                                    <OnboardingSteps {...step} />
+                                <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400" key={onboardingStep.id} >
+                                    <div className="box">
+                                        <Image
+                                            src={onboardingStep.address}
+                                            className="img-fluid"
+                                            alt="steps"
+                                            width={440}
+                                            height={360}
+                                        ></Image>
+                                        <h3>{onboardingStep.title}</h3>
+                                        <p>{onboardingStep.prompt}</p>
+                                    </div>
                                 </div>
                             );
                         })}
