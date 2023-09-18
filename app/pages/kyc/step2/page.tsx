@@ -1,3 +1,6 @@
+import Continue from '../../../components/continue';
+import Image from 'next/image';
+
 export default function Page() {
     return (
         <form>
@@ -14,7 +17,7 @@ export default function Page() {
                         </div>
 
                         <div className="kycSteps">
-                            <p>Step 1/4</p>
+                            <p>Step 2/4</p>
                         </div>
 
                         <div className="kycHeading1">
