@@ -1,10 +1,8 @@
 import Image from "next/image";
-import styles from "../../../public/assets/styles/page.module.scss";
 import Continue from "../../components/continue";
 
 export default function Page() {
   return (
-    <form>
       <div className="conainer-fluid">
         <div className="row">
           <div className="col-md-6 col-xs-12">
@@ -54,6 +52,5 @@ export default function Page() {
           </div>
         </div>
       </div>
-    </form>
   );
 }
