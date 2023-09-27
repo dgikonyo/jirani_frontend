@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Continue from "../../components/continue";
-import Link from "next/link";
 
 export default function Page() {
   return (
@@ -16,7 +15,7 @@ export default function Page() {
                     width={70}
                     height={55}
                     alt=""
-                  ></Image>{" "}
+                  ></Image>
                 </div>
                 <Image
                   src="/assets/img/logo/svg/logo-no-background.svg"
