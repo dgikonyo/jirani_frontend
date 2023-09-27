@@ -1,4 +1,5 @@
 import styles from '../../../public/assets/styles/page.module.scss'
+import FundCard from '../../components/dashboard/card'
 import Navbar from '../../components/navbar'
 
 export default function Page() {
@@ -8,6 +9,13 @@ export default function Page() {
                 <div className="container">
                     <div className="row">
                         <Navbar />
+                    </div>
+                    <div className='row'>
+                        <p>Your fundraisers</p>
+                        <button>Start a new fundraiser</button>
+                    </div>
+                    <div className='row'>
+                        <FundCard />
                     </div>
                 </div>
             </div>
