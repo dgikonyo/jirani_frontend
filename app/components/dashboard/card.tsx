@@ -14,12 +14,14 @@ export default function FundCard() {
                             <div className="badge"> <span>Design</span> </div>
                         </div>
                         <div className="mt-5">
-                            <h3 className="heading">Senior Product<br>Designer-Singapore</br></h3>
+                            <h3 className="heading">Senior Product<br />Designer-Singapore</h3>
                             <div className="mt-5">
                                 <div className="progress">
                                     <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
                                 </div>
-                                <div className="mt-3"> <span className="text1">32 Applied <span className="text2">of 50 capacity</span></span> </div>
+                                <div className="mt-3">
+                                    <span className="text1">32 Applied<span className="text2">of 50 capacity</span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -36,7 +38,7 @@ export default function FundCard() {
                             <div className="badge"> <span>Product</span> </div>
                         </div>
                         <div className="mt-5">
-                            <h3 className="heading">Junior Product<br>Designer-Singapore</h3>
+                            <h3 className="heading">Junior Product<br />Designer-Singapore</h3>
                             <div className="mt-5">
                                 <div className="progress">
                                     <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
@@ -58,7 +60,7 @@ export default function FundCard() {
                             <div className="badge"> <span>Design</span> </div>
                         </div>
                         <div className="mt-5">
-                            <h3 className="heading">Software Architect <br>Java - USA</h3>
+                            <h3 className="heading">Software Architect <br />Java - USA</h3>
                             <div className="mt-5">
                                 <div className="progress">
                                     <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
