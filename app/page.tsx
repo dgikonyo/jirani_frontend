@@ -1,13 +1,11 @@
-import LandingPage from "./pages/landing-page/page"
-import styles from "../public/assets/styles/page.module.scss"
-import Navbar from "../../components/navbar";
-import Footer from "../../components/Footer";
-import styles from '../../../public/assets/styles/page.module.scss';
+import styles from '../public/assets/styles/page.module.scss'
+import Navbar from './components/navbar';
+import Footer from "./components/Footer";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Page() {
-    const onboardingSteps = [
+  const onboardingSteps = [
     {
       id: 1,
       address: "/assets/img/page-images/values-1.png",
@@ -29,8 +27,11 @@ export default function Page() {
   ];
   return (
     <main className={styles.main}>
-    <div className="hero d-flex align-items-center">
+      <div className="hero d-flex align-items-center">
         <div className="container">
+          <div className='row mb-3'>
+            <Navbar />
+          </div>
           <div id="abovefold" className="row">
             <div className="col-lg-6 d-flex flex-column justify-content-center">
               <h1 data-aos="fade-up">
@@ -88,6 +89,9 @@ export default function Page() {
                 </div>
               );
             })}
+          </div>
+          <div className='row'>
+            <Footer />
           </div>
         </div>
       </div>
