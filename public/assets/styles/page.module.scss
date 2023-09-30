@@ -1,0 +1,252 @@
+$primary: #65647c;
+$secondary: #8b7e74;
+$tertiary: #c7bca1;
+$tertiary-2: #f1d3b3;
+
+
+.Registration {
+  color: hsl(217, 10%, 50.8%);
+
+  #reg-sec {
+    background-color: hsl(0, 0%, 96%);
+  }
+}
+
+/*--------------
+  # LOGIN START
+----------------*/
+.Login {
+  .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+}
+/*--------------
+# LOGIN END
+----------------*/
+
+/*--------------
+  # FORGOT PASSWORD START
+----------------*/
+
+.ForgotPassword {
+  .card {
+    width: 300px;
+  }
+}
+
+/*--------------
+  # FORGOT PASSWORD  END
+----------------*/
+
+/*-------------------------
+  # NAVBAR SECTION
+---------------------------*/
+.Navbar {
+  width: 100%;
+  margin: 20px 0;
+  background-color: #ffede7;
+
+  .navbar-brand {
+    letter-spacing: 3px;
+    color: #c24244;
+  }
+
+  .navbar-brand:hover {
+    color: #c24244;
+  }
+
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #7f4722;
+  }
+
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #7f4722;
+  }
+
+  .navbar-scrolled {
+    background-color: #ffede7;
+  }
+}
+/*-------------------------
+  # NAVBAR SECTION END
+---------------------------*/
+
+/*------------
+  # KYC SECTION START
+-------------*/
+.kycPageSection {
+  //background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+
+  .kycLogo {
+    float: left;
+  }
+
+  .kycHeading1 {
+    float: right;
+  }
+}
+/*----------
+  # KYC SECTION END
+-----------*/
+
+/*------------------
+ # LANDING PAGE START
+--------------------*/
+.main {
+  /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/page-images/landing/hero-bg.png) top center no-repeat;
+    background-size: cover;
+  }
+
+  .hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #012970;
+  }
+
+  .hero h2 {
+    color: #444444;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+  }
+
+  .hero .btn-get-started {
+    margin-top: 30px;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  }
+
+  .hero .btn-get-started span {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .hero .btn-get-started i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+
+  .hero .btn-get-started:hover i {
+    transform: translateX(5px);
+  }
+
+  .hero .hero-img {
+    text-align: right;
+  }
+
+  @media (min-width: 1024px) {
+    .hero {
+      background-attachment: fixed;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .hero {
+      height: auto;
+      padding: 120px 0 60px 0;
+    }
+
+    .hero .hero-img {
+      text-align: center;
+      margin-top: 80px;
+    }
+
+    .hero .hero-img img {
+      width: 80%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+    }
+
+    .hero h2 {
+      font-size: 24px;
+    }
+
+    .hero .hero-img img {
+      width: 100%;
+    }
+  }
+  #card-steps {
+    width: 18rem;
+  }
+
+  /*--------------------------------------------------------------
+# Values
+--------------------------------------------------------------*/
+  .values .box {
+    padding: 30px;
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+  }
+
+  .values .box img {
+    padding: 30px 50px;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+  .values .box h3 {
+    font-size: 24px;
+    color: #012970;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+
+  .values .box:hover {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  }
+
+  .values .box:hover img {
+    transform: scale(1);
+  }
+}
+/*------------------
+ # LANDING PAGE END
+--------------------*/
+
+
+/*------------------
+ # DASHBOARD PAGE START
+--------------------*/
+.dashboardSection {
+   .fundHero {
+    margin-top:30px;
+  }
+}
+/*------------------
+ # DASHBOARD PAGE END
+--------------------*/
