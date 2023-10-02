@@ -4,7 +4,7 @@ import styles from "../../public/assets/styles/page.module.scss"
 export default function Navbar() {
     return (
         <section className={styles.Navbar}>
-            <nav className="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0">
+            <nav className="navbar navbar-expand-lg navbar-scroll shadow-0">
                 <div className="container">
                     <Link className="navbar-brand" href="/">
                         <Image
