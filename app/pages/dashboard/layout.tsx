@@ -1,5 +1,5 @@
-import Navbar from '../../components/navbar';
-import Footer  from '../../components/Footer'; 
+import Navbar from '../../components/navbar.component';
+import Footer  from '../../components/Footer.component'; 
 
 export default function DashboardLayout({children,}: {children: React.ReactNode}) {
     return (
