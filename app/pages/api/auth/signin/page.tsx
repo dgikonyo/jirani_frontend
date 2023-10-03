@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from '../../../../public/assets/styles/page.module.scss';
+import styles from '../../../../../public/assets/styles/page.module.scss';
 import Link from 'next/link';
 
 export default function Login() {

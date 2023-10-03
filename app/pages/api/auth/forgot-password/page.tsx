@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../../../../public/assets/styles/page.module.scss';
+import styles from '../../../../../public/assets/styles/page.module.scss';
 
 export default function ForgotPassword() {
     return (

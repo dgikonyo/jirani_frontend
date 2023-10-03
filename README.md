@@ -43,3 +43,8 @@ Navbar Inspiration:
 - [Our Jewelery](https://mdbootstrap.com/snippets/standard/mdbootstrap/2949642?view=side)
 - [Inspiration 2](https://mdbootstrap.com/snippets/standard/mdbootstrap/2948607?view=side)
 - [Main](https://mdbootstrap.com/docs/standard/navigation/navbar/examples-and-customization/)
+
+-----------------------------------------
+GOOGLE AUTH
+-----------------------------------------
+[Google Auth + Next](https://codevoweb.com/nextjs-add-google-and-github-oauth2-using-nextauth-js/)
