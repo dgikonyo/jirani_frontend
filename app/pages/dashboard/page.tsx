@@ -1,6 +1,5 @@
 import styles from '../../../public/assets/styles/page.module.scss'
-import FundCard from '../../components/dashboard/card'
-import Navbar from '../../components/navbar'
+import FundCard from '../../components/dashboard/card.component'
 
 export default function Page() {
     return (
