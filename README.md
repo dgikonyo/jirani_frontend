@@ -48,3 +48,8 @@ Navbar Inspiration:
 GOOGLE AUTH
 -----------------------------------------
 [Google Auth + Next](https://codevoweb.com/nextjs-add-google-and-github-oauth2-using-nextauth-js/)
+
+-----------------------
+Redux Concepts
+--------------------
+[Integrate Redux into NextJs](https://codevoweb.com/setup-redux-toolkit-in-nextjs-13-app-directory/)

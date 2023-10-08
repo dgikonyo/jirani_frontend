@@ -13,6 +13,7 @@
     "sass": "^1.64.2"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.6",
     "@types/node": "18.16.1",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",

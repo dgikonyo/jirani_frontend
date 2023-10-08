@@ -1,7 +1,11 @@
 import "../public/assets/styles/globals.css"
 import "bootstrap/dist/css/bootstrap.min.css";
-import { SessionProvider, SessionProviderProps } from "next-auth/react";
-import { AppProps } from "next/app";
+import { Providers } from "@/redux/provider";
+
+import const metadata = {
+  title: "Jirani Crowdfund",
+  description: "Supporting creators to launch projects",
+};
 
 export default function RootLayout({ children,}: { children: React.ReactNode}) {
   return (
@@ -9,7 +13,9 @@ export default function RootLayout({ children,}: { children: React.ReactNode}) {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-        <body>{children}</body>
+        <body>
+          <Providers>{children}</Providers>
+        </body>
     </html>
   )
 }
