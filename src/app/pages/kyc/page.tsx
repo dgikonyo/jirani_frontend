@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Continue from "../../components/continueBtn.component";
+import Continue from "../../../components/continueBtn.component";
 
 export default function Page() {
   return (

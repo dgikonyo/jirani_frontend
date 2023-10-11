@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import styles from '../../../../../public/assets/styles/page.module.scss';
+import styles from '../../../../../../public/assets/styles/page.module.scss';
 
-export default function ForgotPassword() {
+export default function Page() {
     return (
         <section className={styles.ForgotPassword}>
             <div className="card text-center">
@@ -19,8 +19,8 @@ export default function ForgotPassword() {
                         className="btn btn-primary w-100"
                         >Reset password</Link>
                     <div className="d-flex justify-content-between mt-4">
-                        <Link className="" href="/pages/auth/login">Login</Link>
-                        <Link className="" href="/pages/auth/registration">Register</Link>
+                        <Link className="" href="#">Login</Link>
+                        <Link className="" href="#">Register</Link>
                     </div>
                 </div>
             </div>

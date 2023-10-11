@@ -1,6 +1,6 @@
-import { configStore } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 
-export const store = configStore({
+export const store = configureStore({
 	reducer: {},
 	devTools: process.env.NODE_ENV !== "production",
 });
