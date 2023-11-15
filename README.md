@@ -49,6 +49,8 @@ GOOGLE AUTH
 -----------------------------------------
 [Google Auth + Next](https://codevoweb.com/nextjs-add-google-and-github-oauth2-using-nextauth-js/)
 
+[NextAuth](https://medium.com/readytowork-org/implementing-oauth-2-0-in-the-next-13-app-using-next-auth-42226a26bc3#:~:text=Select%20the%20%E2%80%9C%20CREATE%20CREDENTIALS%20%E2%80%9D%20button,click%20the%20%E2%80%9C%20Create%20%E2%80%9D%20button.)
+
 -----------------------
 Redux Concepts
 --------------------
